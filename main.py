@@ -5,7 +5,7 @@ import numpy as np
 # if not working try to switch it to 1
 cap = cv2.VideoCapture(0)
 
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov8n.pt")
 
 class_names = model.names
 
